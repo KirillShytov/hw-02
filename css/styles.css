@@ -27,4 +27,5 @@ ul {
 .button {
   background-color: #4d5ae5;
   font-size: 16px;
+  cursor: pointer;
 }
