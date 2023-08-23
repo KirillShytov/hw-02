@@ -1,0 +1,30 @@
+body {
+  font-family: 'Roboto', 'Raleway' sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+.part-logo {
+  color: #4d5ae5;
+}
+.link-menu {
+  color: #2e2f42;
+}
+.link-contact {
+  color: #434455;
+}
+.section-first {
+  background-color: #2e2f42;
+  color: #fff;
+  text-align: center;
+}
+.text-basic {
+  font-size: 56px;
+}
+.button {
+  background-color: #4d5ae5;
+  font-size: 16px;
+}
