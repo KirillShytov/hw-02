@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto', 'Raleway' sans-serif;
+  font-family: 'Roboto', 'Raleway', sans-serif;
 }
 a {
   text-decoration: none;
@@ -7,25 +7,79 @@ a {
 ul {
   list-style-type: none;
 }
+.link-logo {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
 .part-logo {
   color: #4d5ae5;
 }
 .link-menu {
   color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
 }
 .link-contact {
   color: #434455;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
 }
 .section-first {
   background-color: #2e2f42;
   color: #fff;
   text-align: center;
 }
-.text-basic {
+.text-header-first {
   font-size: 56px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 1.12px;
 }
 .button {
   background-color: #4d5ae5;
   font-size: 16px;
   cursor: pointer;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+  color: #fff;
+}
+.text-second-header {
+  text-align: center;
+  color: #fff;
+}
+.text-header-second {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+}
+.section-third {
+  background-color: #f4f4fd;
+}
+.header-section-third {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+.text-header-third {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
 }
