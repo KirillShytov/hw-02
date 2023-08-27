@@ -1,6 +1,7 @@
 body {
-  font-family: 'Roboto', 'Raleway', sans-serif;
-  color: #2e2f42;
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 a {
   text-decoration: none;
@@ -16,7 +17,7 @@ p {
   color: #434455;
 }
 .link-logo {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1 1;
