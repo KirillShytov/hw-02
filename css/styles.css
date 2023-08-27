@@ -20,13 +20,14 @@ p {
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1 1;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  color: #2e2f42;
+
+  color: #4d5ae5;
 }
 .part-logo {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 .link-menu {
   color: #2e2f42;
@@ -41,10 +42,12 @@ p {
 .link-menu:focus {
   color: #404bbf;
 }
+.contact {
+  font-style: normal;
+}
 .link-contact {
   color: #434455;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
