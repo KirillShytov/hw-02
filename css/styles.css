@@ -150,19 +150,14 @@ p {
 .footer {
   background-color: #2e2f42;
 }
+.part-logo-footer {
+  color: #f4f4fd;
+}
 .text-footer {
+  font-family: 'Raleway', sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
   color: #f4f4fd;
-}
-.link-logo-footer {
-  font-family: Raleway;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.1;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-  color: #fff;
 }
