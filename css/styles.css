@@ -84,6 +84,7 @@ p {
 .button:focus {
   background-color: #404bbf;
 }
+
 .text-second-header {
   text-align: center;
   color: #fff;
@@ -103,13 +104,22 @@ p {
 .section-third {
   background-color: #f4f4fd;
 }
+.section-third-first-element {
+  background-color: #ffffff;
+}
 .header-section-third {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+}
+.text-third {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .text-header-third {
   font-size: 20px;
