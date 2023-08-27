@@ -1,5 +1,6 @@
 body {
   font-family: 'Roboto', 'Raleway', sans-serif;
+  color: #2e2f42;
 }
 a {
   text-decoration: none;
@@ -7,12 +8,18 @@ a {
 ul {
   list-style-type: none;
 }
+h2,
+h3 {
+  color: #2e2f42;
+}
+p {
+  color: #434455;
+}
 .link-logo {
   font-family: Raleway;
   font-size: 18px;
   font-weight: 700;
-  line-height: 21px;
-  line-height: 21px;
+  line-height: 1 1;
   letter-spacing: 0.54px;
   text-transform: uppercase;
   color: #2e2f42;
@@ -24,16 +31,28 @@ ul {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.32px;
+}
+.link-menu:hover {
+  color: #404bbf;
+}
+.link-menu:focus {
+  color: #404bbf;
 }
 .link-contact {
   color: #434455;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.32px;
+}
+.link-contact:hover {
+  color: #404bbf;
+}
+.link-contact:focus {
+  color: #404bbf;
 }
 .section-first {
   background-color: #2e2f42;
@@ -43,7 +62,7 @@ ul {
 .text-header-first {
   font-size: 56px;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 1;
   letter-spacing: 1.12px;
 }
 .button {
@@ -51,19 +70,21 @@ ul {
   font-size: 16px;
   cursor: pointer;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.64px;
   color: #fff;
+}
+.button:hover {
+  background-color: #404bbf;
 }
 .text-second-header {
   text-align: center;
   color: #fff;
 }
 .text-header-second {
-  color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.2;
   letter-spacing: 0.4px;
 }
 .section-third {
@@ -73,13 +94,52 @@ ul {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 1.1;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
 .text-header-third {
   font-size: 20px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.2;
   letter-spacing: 0.4px;
+}
+.header-section-fourth {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  text-align: center;
+}
+.text-header-fourth {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+.text-fourth {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+.footer {
+  background-color: #2e2f42;
+}
+.text-footer {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: #f4f4fd;
+}
+.link-logo-footer {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  color: #fff;
 }
